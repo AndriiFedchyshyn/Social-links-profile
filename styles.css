@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 1.8rem 3rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  width: 384px;
+  height: 620px;
+  background-color: #141414;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+    padding: 1rem 1rem 0rem;
+}
+
+
+p:first-of-type {
+    color: #c5f82a;
+    padding: 0;
+}
+
+p{
+    padding: 1.5rem;
+    font-size: 14px;
+    color: hsl(0, 0%, 53%);
+}
+
+button{
+    all: unset;
+    background-color: rgb(66, 65, 65);
+    width: 19rem;
+    height: 2.8rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #c5f82a;
+    color: #141414;
+}
